@@ -1,4 +1,4 @@
-# Policy And Value Iteration
+# Policy And Value Iteration, Reinforcement Learning
 
 
 Реализован алгоритм policy и value iteration.
