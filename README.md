@@ -1,27 +1,31 @@
 # Policy And Value Iteration, Reinforcement Learning
 
+# About The Project
 
-Реализован алгоритм policy и value iteration.
+The policy and value iteration algorithm has been implemented.
 
 
+# Getting Started
 
-1) файл для запуска:
+1) File to run:
+      
+      /executor/executor.py
+ 
+2) `action_set` can be changed in:
 
-`/executor/executor.py`
+      `/configs/config.py` via the `cfg.action_set` parameter.
 
-`action_set` можно поменять в `/configs/config.py` через параметр `cfg.action_set`.
+3) policy evaluation implementation:
 
-2) реализация policy evaluation:
+      `/MDP/MDP.py`
 
-`/MDP/MDP.py`
-
-3) Графики сравнения алгоритмов по скорости работы и скорости сходимости:
+3) Visualization for comparing algorithms in terms of speed and convergence is in:
    
    `/plots/`
 
-Также при запуске `/executor/executor.py` графики построятся в браузере, где можно будет посмотреть все значения подробнее. 
+- Also, when you run `/executor/executor.py`, graphs will be built in the browser, where you can see all the values in more detail.
 
-В `/plots/` помимо графиков есть визуализация политики в виде матрицы и игрового поля и v - в виде игрового поля. Помимо этой визуализации, они еще выводятся в консоль.
+- In `/plots/`, in addition to graphs, there is a visualization of politics in the form of a matrix and a playing field, and v - in the form of a playing field. In addition to this visualization, they are also output to the console.
 
-Эксперименты запускались по 200 раз на размерах small, medium, large и huge и по 100 раз на размере colossal, 
-после чего время и количество итераций усреднялось.
+- The experiments were run 200 times on small, medium, large and huge sizes and 100 times on colossal size.
+after which the time and number of iterations were averaged.
