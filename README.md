@@ -14,15 +14,17 @@ File to run:
  
  `action_set` can be changed in:
 
-      `/configs/config.py` via the `cfg.action_set` parameter.
+      /configs/config.py via the `cfg.action_set` parameter.
 
 policy evaluation implementation:
 
-      `/MDP/MDP.py`
+      /MDP/MDP.py
 
 Visualization for comparing algorithms in terms of speed and convergence is in:
-   
-   `/plots/`
+
+      /plots/
+
+
 
 - Also, when you run `/executor/executor.py`, graphs will be built in the browser, where you can see all the values in more detail.
 
