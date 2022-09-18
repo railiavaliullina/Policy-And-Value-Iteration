@@ -6,10 +6,10 @@ The policy and value iteration algorithm has been implemented.
 
 
 # Getting Started
-
-1) File to run:
       
-      /executor/executor.py
+1.File to run: 
+    
+    /executor/executor.py
  
 2) `action_set` can be changed in:
 
