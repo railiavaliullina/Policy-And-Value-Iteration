@@ -14,7 +14,7 @@ File to run:
  
  `action_set` can be changed in:
 
-      /configs/config.py via the `cfg.action_set` parameter.
+      /configs/config.py via the cfg.action_set parameter.
 
 policy evaluation implementation:
 
