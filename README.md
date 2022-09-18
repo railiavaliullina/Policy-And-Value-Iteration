@@ -7,7 +7,7 @@ The policy and value iteration algorithm has been implemented.
 
 # Getting Started
       
-1.File to run: 
+1)File to run: 
     
     /executor/executor.py
  
