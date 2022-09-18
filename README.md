@@ -25,6 +25,7 @@ Visualization for comparing algorithms in terms of speed and convergence is in:
       /plots/
 
 
+# Additional Information
 
 - Also, when you run `/executor/executor.py`, graphs will be built in the browser, where you can see all the values in more detail.
 
