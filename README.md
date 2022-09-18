@@ -7,19 +7,20 @@ The policy and value iteration algorithm has been implemented.
 
 # Getting Started
       
-1)File to run: 
+File to run: 
     
     /executor/executor.py
  
-2) `action_set` can be changed in:
+ 
+ `action_set` can be changed in:
 
       `/configs/config.py` via the `cfg.action_set` parameter.
 
-3) policy evaluation implementation:
+policy evaluation implementation:
 
       `/MDP/MDP.py`
 
-3) Visualization for comparing algorithms in terms of speed and convergence is in:
+Visualization for comparing algorithms in terms of speed and convergence is in:
    
    `/plots/`
 
